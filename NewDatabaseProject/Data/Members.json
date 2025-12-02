@@ -1,7 +1,7 @@
 ﻿{
   "Members": [
     {
-      "Member_Id": "M001",
+      "Member_Email": "olivia.green@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Olivia Green",
       "Birthday": "1986-01-01",
@@ -13,7 +13,7 @@
       "Date_signed_up": "2024-01-04"
     },
     {
-      "Member_Id": "M002",
+      "Member_Email": "liam.carter@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Liam Carter",
       "Birthday": "1987-02-02",
@@ -25,7 +25,7 @@
       "Date_signed_up": "2024-02-07"
     },
     {
-      "Member_Id": "M003",
+      "Member_Email": "emma.thompson@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Emma Thompson",
       "Birthday": "1988-03-03",
@@ -37,7 +37,7 @@
       "Date_signed_up": "2024-03-10"
     },
     {
-      "Member_Id": "M004",
+      "Member_Email": "noah.anderson@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Noah Anderson",
       "Birthday": "1989-04-04",
@@ -49,7 +49,7 @@
       "Date_signed_up": "2024-04-13"
     },
     {
-      "Member_Id": "M005",
+      "Member_Email": "ava.miller@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Ava Miller",
       "Birthday": "1990-05-05",
@@ -61,7 +61,7 @@
       "Date_signed_up": "2024-05-16"
     },
     {
-      "Member_Id": "M006",
+      "Member_Email": "william.moore@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "William Moore",
       "Birthday": "1991-06-06",
@@ -73,7 +73,7 @@
       "Date_signed_up": "2024-06-19"
     },
     {
-      "Member_Id": "M007",
+      "Member_Email": "sophia.clark@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Sophia Clark",
       "Birthday": "1992-07-07",
@@ -85,7 +85,7 @@
       "Date_signed_up": "2024-07-22"
     },
     {
-      "Member_Id": "M008",
+      "Member_Email": "james.hall@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "James Hall",
       "Birthday": "1993-08-08",
@@ -97,7 +97,7 @@
       "Date_signed_up": "2024-08-25"
     },
     {
-      "Member_Id": "M009",
+      "Member_Email": "isabella.young@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Isabella Young",
       "Birthday": "1994-09-09",
@@ -109,7 +109,7 @@
       "Date_signed_up": "2024-09-28"
     },
     {
-      "Member_Id": "M010",
+      "Member_Email": "benjamin.king@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Benjamin King",
       "Birthday": "1995-10-10",
@@ -121,7 +121,7 @@
       "Date_signed_up": "2024-10-03"
     },
     {
-      "Member_Id": "M011",
+      "Member_Email": "mia.wright@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Mia Wright",
       "Birthday": "1996-11-11",
@@ -133,7 +133,7 @@
       "Date_signed_up": "2024-11-06"
     },
     {
-      "Member_Id": "M012",
+      "Member_Email": "lucas.scott@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Lucas Scott",
       "Birthday": "1997-12-12",
@@ -145,7 +145,7 @@
       "Date_signed_up": "2024-12-09"
     },
     {
-      "Member_Id": "M013",
+      "Member_Email": "charlotte.baker@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Charlotte Baker",
       "Birthday": "1985-01-13",
@@ -157,7 +157,7 @@
       "Date_signed_up": "2024-01-12"
     },
     {
-      "Member_Id": "M014",
+      "Member_Email": "henry.adams@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Henry Adams",
       "Birthday": "1986-02-14",
@@ -169,7 +169,7 @@
       "Date_signed_up": "2024-02-15"
     },
     {
-      "Member_Id": "M015",
+      "Member_Email": "amelia.perez@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Amelia Perez",
       "Birthday": "1987-03-15",
@@ -181,7 +181,7 @@
       "Date_signed_up": "2024-03-18"
     },
     {
-      "Member_Id": "M016",
+      "Member_Email": "michael.rivera@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Michael Rivera",
       "Birthday": "1988-04-16",
@@ -193,7 +193,7 @@
       "Date_signed_up": "2024-04-21"
     },
     {
-      "Member_Id": "M017",
+      "Member_Email": "harper.stewart@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Harper Stewart",
       "Birthday": "1989-05-17",
@@ -205,7 +205,7 @@
       "Date_signed_up": "2024-05-24"
     },
     {
-      "Member_Id": "M018",
+      "Member_Email": "ethan.torres@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Ethan Torres",
       "Birthday": "1990-06-18",
@@ -217,7 +217,7 @@
       "Date_signed_up": "2024-06-27"
     },
     {
-      "Member_Id": "M019",
+      "Member_Email": "evelyn.gray@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Evelyn Gray",
       "Birthday": "1991-07-19",
@@ -229,7 +229,7 @@
       "Date_signed_up": "2024-07-02"
     },
     {
-      "Member_Id": "M020",
+      "Member_Email": "daniel.hughes@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Daniel Hughes",
       "Birthday": "1992-08-20",
@@ -241,7 +241,7 @@
       "Date_signed_up": "2024-08-05"
     },
     {
-      "Member_Id": "M021",
+      "Member_Email": "abigail.foster@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Abigail Foster",
       "Birthday": "1993-09-21",
@@ -253,7 +253,7 @@
       "Date_signed_up": "2024-09-08"
     },
     {
-      "Member_Id": "M022",
+      "Member_Email": "jacob.ross@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Jacob Ross",
       "Birthday": "1994-10-22",
@@ -265,7 +265,7 @@
       "Date_signed_up": "2024-10-11"
     },
     {
-      "Member_Id": "M023",
+      "Member_Email": "emily.ward@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Emily Ward",
       "Birthday": "1995-11-23",
@@ -277,7 +277,7 @@
       "Date_signed_up": "2024-11-14"
     },
     {
-      "Member_Id": "M024",
+      "Member_Email": "matthew.cox@gymfit.com",
       "Membership_Type": "Basic",
       "Name": "Matthew Cox",
       "Birthday": "1996-12-24",
@@ -289,7 +289,7 @@
       "Date_signed_up": "2024-12-17"
     },
     {
-      "Member_Id": "M025",
+      "Member_Email": "elizabeth.howard@gymfit.com",
       "Membership_Type": "Premium",
       "Name": "Elizabeth Howard",
       "Birthday": "1995-01-25",
