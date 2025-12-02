@@ -1,5 +1,6 @@
 ﻿{
-  "Membership_Types": [
+  "Object": "Membership_Types",
+  "Data": [
     {
       "Access_Level": "Basic",
       "Price": 30.0
