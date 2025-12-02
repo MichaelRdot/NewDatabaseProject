@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
 namespace NewDatabaseProject.Models;
 
 public class MemberModel
