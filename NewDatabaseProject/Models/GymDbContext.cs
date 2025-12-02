@@ -11,11 +11,9 @@ public class GymDbContext : DbContext
     public DbSet<MembershipTypeModel> MembershipTypes { get; set; }
 
     public string DbPath { get; }
-    public GymDbContext(DbContextOptions<GymDbContext> options) : base(options)
+    public GymDbContext()
     {
-        var folder = Environment.SpecialFolder.LocalApplicationData;
-        var path = Environment.GetFolderPath(folder);
-        DbPath = System.IO.Path.Join(path, "Gym.db");
+        DbPath = "Database/Gym.db";
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
