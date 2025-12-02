@@ -1,0 +1,104 @@
+﻿{
+  "Trainers": [
+    {
+      "Employee_Id": "T001",
+      "Membership_Type": "Staff",
+      "Name": "Alex Johnson",
+      "Classes_Teaching": [
+        "Morning Yoga|2025-01-10|09:00"
+      ],
+      "Birthday": "1981-02-15",
+      "Picture": "t001.jpg",
+      "Date_started_working": "2020-02-01"
+    },
+    {
+      "Employee_Id": "T002",
+      "Membership_Type": "Staff",
+      "Name": "Brooke Martinez",
+      "Classes_Teaching": [
+        "Spin Class|2025-01-10|10:30"
+      ],
+      "Birthday": "1982-03-15",
+      "Picture": "t002.jpg",
+      "Date_started_working": "2020-03-01"
+    },
+    {
+      "Employee_Id": "T003",
+      "Membership_Type": "Staff",
+      "Name": "Chris Lee",
+      "Classes_Teaching": [
+        "Pilates|2025-01-11|09:30"
+      ],
+      "Birthday": "1983-04-15",
+      "Picture": "t003.jpg",
+      "Date_started_working": "2020-04-01"
+    },
+    {
+      "Employee_Id": "T004",
+      "Membership_Type": "Staff",
+      "Name": "Dana Roberts",
+      "Classes_Teaching": [
+        "HIIT|2025-01-11|18:00"
+      ],
+      "Birthday": "1984-05-15",
+      "Picture": "t004.jpg",
+      "Date_started_working": "2020-05-01"
+    },
+    {
+      "Employee_Id": "T005",
+      "Membership_Type": "Staff",
+      "Name": "Evan Smith",
+      "Classes_Teaching": [
+        "Zumba|2025-01-12|17:30"
+      ],
+      "Birthday": "1985-06-15",
+      "Picture": "t005.jpg",
+      "Date_started_working": "2020-06-01"
+    },
+    {
+      "Employee_Id": "T006",
+      "Membership_Type": "Staff",
+      "Name": "Faith Kim",
+      "Classes_Teaching": [],
+      "Birthday": "1986-07-15",
+      "Picture": "t006.jpg",
+      "Date_started_working": "2020-07-01"
+    },
+    {
+      "Employee_Id": "T007",
+      "Membership_Type": "Staff",
+      "Name": "Gavin Brown",
+      "Classes_Teaching": [],
+      "Birthday": "1987-08-15",
+      "Picture": "t007.jpg",
+      "Date_started_working": "2020-08-01"
+    },
+    {
+      "Employee_Id": "T008",
+      "Membership_Type": "Staff",
+      "Name": "Harper Davis",
+      "Classes_Teaching": [],
+      "Birthday": "1988-09-15",
+      "Picture": "t008.jpg",
+      "Date_started_working": "2020-09-01"
+    },
+    {
+      "Employee_Id": "T009",
+      "Membership_Type": "Staff",
+      "Name": "Isaac Wilson",
+      "Classes_Teaching": [],
+      "Birthday": "1989-01-15",
+      "Picture": "t009.jpg",
+      "Date_started_working": "2020-01-01"
+    },
+    {
+      "Employee_Id": "T010",
+      "Membership_Type": "Staff",
+      "Name": "Jordan Taylor",
+      "Classes_Teaching": [],
+      "Birthday": "1980-02-15",
+      "Picture": "t010.jpg",
+      "Date_started_working": "2020-02-01"
+    }
+  ]
+}

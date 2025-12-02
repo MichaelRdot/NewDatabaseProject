@@ -1,0 +1,99 @@
+﻿{
+  "Classes": [
+    {
+      "Name": "Morning Yoga",
+      "Date": "2025-01-10",
+      "Time": "09:00",
+      "Minimum_Membership_Access": "Basic",
+      "Trainer": "T001",
+      "Members": [
+        "M001",
+        "M004",
+        "M006",
+        "M009",
+        "M011",
+        "M014",
+        "M016",
+        "M019",
+        "M021",
+        "M024"
+      ]
+    },
+    {
+      "Name": "Spin Class",
+      "Date": "2025-01-10",
+      "Time": "10:30",
+      "Minimum_Membership_Access": "Basic",
+      "Trainer": "T002",
+      "Members": [
+        "M002",
+        "M005",
+        "M007",
+        "M010",
+        "M012",
+        "M015",
+        "M017",
+        "M020",
+        "M022",
+        "M025"
+      ]
+    },
+    {
+      "Name": "Pilates",
+      "Date": "2025-01-11",
+      "Time": "09:30",
+      "Minimum_Membership_Access": "Basic",
+      "Trainer": "T003",
+      "Members": [
+        "M001",
+        "M003",
+        "M006",
+        "M008",
+        "M011",
+        "M013",
+        "M016",
+        "M018",
+        "M021",
+        "M023"
+      ]
+    },
+    {
+      "Name": "HIIT",
+      "Date": "2025-01-11",
+      "Time": "18:00",
+      "Minimum_Membership_Access": "Premium",
+      "Trainer": "T004",
+      "Members": [
+        "M002",
+        "M004",
+        "M007",
+        "M009",
+        "M012",
+        "M014",
+        "M017",
+        "M019",
+        "M022",
+        "M024"
+      ]
+    },
+    {
+      "Name": "Zumba",
+      "Date": "2025-01-12",
+      "Time": "17:30",
+      "Minimum_Membership_Access": "Premium",
+      "Trainer": "T005",
+      "Members": [
+        "M003",
+        "M005",
+        "M008",
+        "M010",
+        "M013",
+        "M015",
+        "M018",
+        "M020",
+        "M023",
+        "M025"
+      ]
+    }
+  ]
+}

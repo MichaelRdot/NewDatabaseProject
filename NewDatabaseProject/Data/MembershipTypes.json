@@ -1,0 +1,12 @@
+﻿{
+  "Membership_Types": [
+    {
+      "Access_Level": "Basic",
+      "Price": 30.0
+    },
+    {
+      "Access_Level": "Premium",
+      "Price": 50.0
+    }
+  ]
+}
