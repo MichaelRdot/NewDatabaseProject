@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace NewDatabaseProject.Database;
+namespace NewDatabaseProject.Models;
 
 public class MembershipTypeModel
 {

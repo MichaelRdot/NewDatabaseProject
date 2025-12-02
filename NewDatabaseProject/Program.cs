@@ -1,2 +1,4 @@
-﻿
-Console.WriteLine("Hello, World!");
+﻿using Microsoft.EntityFrameworkCore;
+using NewDatabaseProject.Models;
+
+Console.Write("butt");
