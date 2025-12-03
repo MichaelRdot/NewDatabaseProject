@@ -16,4 +16,23 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Data\Classes.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\Members.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\MembershipTypes.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\Trainers.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Database\" />
+    </ItemGroup>
+
 </Project>

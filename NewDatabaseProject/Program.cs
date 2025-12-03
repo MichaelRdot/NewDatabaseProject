@@ -104,16 +104,35 @@ void DeleteClass()
 
 async Task InitializeDb()
 {
-    var classJsonStream = new StreamReader("/NewDatabaseProject/Data/Classes.json");
-    var memberJsonStream = new StreamReader("/NewDatabaseProject/Data/Members.json");
-    var trainerJsonStream = new StreamReader("/NewDatabaseProject/Data/Trainers.json");
-    var MembershipTypeJsonStream = new StreamReader("/NewDatabaseProject/Data/MembershipTypes.json");
+    /*
+    var classJsonStream = new StreamReader("/Data/Classes.json");
+    var memberJsonStream = new StreamReader("/Data/Members.json");
+    var trainerJsonStream = new StreamReader("/Data/Trainers.json");
+    var MembershipTypeJsonStream = new StreamReader("/Data/MembershipTypes.json");
 
     var Classes = JsonSerializer.Deserialize<PaginatedListDto<ClassModel>>(classJsonStream.ToString());
     var Members = JsonSerializer.Deserialize<PaginatedListDto<MemberModel>>(memberJsonStream.ToString());
     var Trainers = JsonSerializer.Deserialize<PaginatedListDto<TrainerModel>>(trainerJsonStream.ToString());
     var MembershipTypes = JsonSerializer.Deserialize<PaginatedListDto<MembershipTypeModel>>(MembershipTypeJsonStream.ToString());
+ */
+ var basePath = Path.Combine(Directory.GetCurrentDirectory(), "Data");
 
+ 
+
+ var classesJson = File.ReadAllText(Path.Combine(basePath, "Classes.json"));
+ var membersJson = File.ReadAllText(Path.Combine(basePath, "Members.json"));
+ var trainersJson = File.ReadAllText(Path.Combine(basePath, "Trainers.json"));
+ var membershipTypesJson = File.ReadAllText(Path.Combine(basePath, "MembershipTypes.json"));
+ 
+ 
+
+ var Classes = JsonSerializer.Deserialize<PaginatedListDto<ClassModel>>(classesJson);
+ var Members = JsonSerializer.Deserialize<PaginatedListDto<MemberModel>>(membersJson);
+ var Trainers = JsonSerializer.Deserialize<PaginatedListDto<TrainerModel>>(trainersJson);
+ var MembershipTypes = JsonSerializer.Deserialize<PaginatedListDto<MembershipTypeModel>>(membershipTypesJson);
+ 
+
+ 
     context.Classes.AddRange(Classes.Data);
     context.Members.AddRange(Members.Data);
     context.Trainers.AddRange(Trainers.Data);
