@@ -1,6 +1,7 @@
 using System.Text.Json;
 using NewDatabaseProject.Dtos;
 using NewDatabaseProject.Models;
+using NewDatabaseProject.Database;
 
 namespace NewDatabaseProject.Services;
 
