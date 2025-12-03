@@ -1,14 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace NewDatabaseProject.Models;
 
 public class TrainerModel
 {
-    [Key] public required string employee_id { get; set; } = string.Empty;
-    public required string membership_type { get; set; } = string.Empty;
-    public required string name { get; set; } = string.Empty;
-    public ICollection<ClassModel> Classes_Teaching { get; } = new List<ClassModel>();
-    public string birthday { get; set; } = string.Empty;
-    public required string picture { get; set; } = string.Empty;
-    public required string date_started_working { get; set; } = string.Empty;
+    [Key] [JsonPropertyName("Employee_Id")] public required string EmployeeId { get; set; } = string.Empty;
+    [JsonPropertyName("Membership_Type")] public required string MembershipType { get; set; } = string.Empty;
+    [JsonPropertyName("Name")] public required string Name { get; set; } = string.Empty;
+    [JsonPropertyName("Classes_Teaching")] public ICollection<ClassModel> ClassesTeaching { get; } = new List<ClassModel>();
+    [JsonPropertyName("Birthday")] public string Birthday { get; set; } = string.Empty;
+    [JsonPropertyName("Picture")] public required string Picture { get; set; } = string.Empty;
+    [JsonPropertyName("Date_Started_Working")] public required string DateStartedWorking { get; set; } = string.Empty;
 }

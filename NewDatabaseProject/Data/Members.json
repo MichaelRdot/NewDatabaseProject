@@ -11,7 +11,7 @@
         "Morning Yoga|2025-01-10|09:00",
         "Pilates|2025-01-11|09:30"
       ],
-      "Date_signed_up": "2024-01-04"
+      "Date_Signed_Up": "2024-01-04"
     },
     {
       "Member_Email": "liam.carter@gymfit.com",
@@ -23,7 +23,7 @@
         "HIIT|2025-01-11|18:00",
         "Spin Class|2025-01-10|10:30"
       ],
-      "Date_signed_up": "2024-02-07"
+      "Date_Signed_Up": "2024-02-07"
     },
     {
       "Member_Email": "emma.thompson@gymfit.com",
@@ -35,7 +35,7 @@
         "Pilates|2025-01-11|09:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-03-10"
+      "Date_Signed_Up": "2024-03-10"
     },
     {
       "Member_Email": "noah.anderson@gymfit.com",
@@ -47,7 +47,7 @@
         "HIIT|2025-01-11|18:00",
         "Morning Yoga|2025-01-10|09:00"
       ],
-      "Date_signed_up": "2024-04-13"
+      "Date_Signed_Up": "2024-04-13"
     },
     {
       "Member_Email": "ava.miller@gymfit.com",
@@ -59,7 +59,7 @@
         "Spin Class|2025-01-10|10:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-05-16"
+      "Date_Signed_Up": "2024-05-16"
     },
     {
       "Member_Email": "william.moore@gymfit.com",
@@ -71,7 +71,7 @@
         "Morning Yoga|2025-01-10|09:00",
         "Pilates|2025-01-11|09:30"
       ],
-      "Date_signed_up": "2024-06-19"
+      "Date_Signed_Up": "2024-06-19"
     },
     {
       "Member_Email": "sophia.clark@gymfit.com",
@@ -83,7 +83,7 @@
         "HIIT|2025-01-11|18:00",
         "Spin Class|2025-01-10|10:30"
       ],
-      "Date_signed_up": "2024-07-22"
+      "Date_Signed_Up": "2024-07-22"
     },
     {
       "Member_Email": "james.hall@gymfit.com",
@@ -95,7 +95,7 @@
         "Pilates|2025-01-11|09:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-08-25"
+      "Date_Signed_Up": "2024-08-25"
     },
     {
       "Member_Email": "isabella.young@gymfit.com",
@@ -107,7 +107,7 @@
         "HIIT|2025-01-11|18:00",
         "Morning Yoga|2025-01-10|09:00"
       ],
-      "Date_signed_up": "2024-09-28"
+      "Date_Signed_Up": "2024-09-28"
     },
     {
       "Member_Email": "benjamin.king@gymfit.com",
@@ -119,7 +119,7 @@
         "Spin Class|2025-01-10|10:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-10-03"
+      "Date_Signed_Up": "2024-10-03"
     },
     {
       "Member_Email": "mia.wright@gymfit.com",
@@ -131,7 +131,7 @@
         "Morning Yoga|2025-01-10|09:00",
         "Pilates|2025-01-11|09:30"
       ],
-      "Date_signed_up": "2024-11-06"
+      "Date_Signed_Up": "2024-11-06"
     },
     {
       "Member_Email": "lucas.scott@gymfit.com",
@@ -143,7 +143,7 @@
         "HIIT|2025-01-11|18:00",
         "Spin Class|2025-01-10|10:30"
       ],
-      "Date_signed_up": "2024-12-09"
+      "Date_Signed_Up": "2024-12-09"
     },
     {
       "Member_Email": "charlotte.baker@gymfit.com",
@@ -155,7 +155,7 @@
         "Pilates|2025-01-11|09:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-01-12"
+      "Date_Signed_Up": "2024-01-12"
     },
     {
       "Member_Email": "henry.adams@gymfit.com",
@@ -167,7 +167,7 @@
         "HIIT|2025-01-11|18:00",
         "Morning Yoga|2025-01-10|09:00"
       ],
-      "Date_signed_up": "2024-02-15"
+      "Date_Signed_Up": "2024-02-15"
     },
     {
       "Member_Email": "amelia.perez@gymfit.com",
@@ -179,7 +179,7 @@
         "Spin Class|2025-01-10|10:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-03-18"
+      "Date_Signed_Up": "2024-03-18"
     },
     {
       "Member_Email": "michael.rivera@gymfit.com",
@@ -191,7 +191,7 @@
         "Morning Yoga|2025-01-10|09:00",
         "Pilates|2025-01-11|09:30"
       ],
-      "Date_signed_up": "2024-04-21"
+      "Date_Signed_Up": "2024-04-21"
     },
     {
       "Member_Email": "harper.stewart@gymfit.com",
@@ -203,7 +203,7 @@
         "HIIT|2025-01-11|18:00",
         "Spin Class|2025-01-10|10:30"
       ],
-      "Date_signed_up": "2024-05-24"
+      "Date_Signed_Up": "2024-05-24"
     },
     {
       "Member_Email": "ethan.torres@gymfit.com",
@@ -215,7 +215,7 @@
         "Pilates|2025-01-11|09:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-06-27"
+      "Date_Signed_Up": "2024-06-27"
     },
     {
       "Member_Email": "evelyn.gray@gymfit.com",
@@ -227,7 +227,7 @@
         "HIIT|2025-01-11|18:00",
         "Morning Yoga|2025-01-10|09:00"
       ],
-      "Date_signed_up": "2024-07-02"
+      "Date_Signed_Up": "2024-07-02"
     },
     {
       "Member_Email": "daniel.hughes@gymfit.com",
@@ -239,7 +239,7 @@
         "Spin Class|2025-01-10|10:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-08-05"
+      "Date_Signed_Up": "2024-08-05"
     },
     {
       "Member_Email": "abigail.foster@gymfit.com",
@@ -251,7 +251,7 @@
         "Morning Yoga|2025-01-10|09:00",
         "Pilates|2025-01-11|09:30"
       ],
-      "Date_signed_up": "2024-09-08"
+      "Date_Signed_Up": "2024-09-08"
     },
     {
       "Member_Email": "jacob.ross@gymfit.com",
@@ -263,7 +263,7 @@
         "HIIT|2025-01-11|18:00",
         "Spin Class|2025-01-10|10:30"
       ],
-      "Date_signed_up": "2024-10-11"
+      "Date_Signed_Up": "2024-10-11"
     },
     {
       "Member_Email": "emily.ward@gymfit.com",
@@ -275,7 +275,7 @@
         "Pilates|2025-01-11|09:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-11-14"
+      "Date_Signed_Up": "2024-11-14"
     },
     {
       "Member_Email": "matthew.cox@gymfit.com",
@@ -287,7 +287,7 @@
         "HIIT|2025-01-11|18:00",
         "Morning Yoga|2025-01-10|09:00"
       ],
-      "Date_signed_up": "2024-12-17"
+      "Date_Signed_Up": "2024-12-17"
     },
     {
       "Member_Email": "elizabeth.howard@gymfit.com",
@@ -299,7 +299,7 @@
         "Spin Class|2025-01-10|10:30",
         "Zumba|2025-01-12|17:30"
       ],
-      "Date_signed_up": "2024-01-20"
+      "Date_Signed_Up": "2024-01-20"
     }
   ]
 }

@@ -7,7 +7,7 @@ public class GymDbContext : DbContext
 {
     public GymDbContext()
     {
-        DbPath = "Data/Gym.db";
+        DbPath = "Database/Gym.db";
         Database.EnsureCreated();
     }
 

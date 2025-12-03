@@ -1,14 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Text.Json.Serialization;
+using Microsoft.EntityFrameworkCore;
 
 namespace NewDatabaseProject.Models;
 
-[PrimaryKey(nameof(name), nameof(date), nameof(time))]
+[PrimaryKey(nameof(Name), nameof(Date), nameof(Time))]
 public class ClassModel
 {
-    public required string name { get; set; } = string.Empty;
-    public required string date { get; set; } = string.Empty;
-    public required string time { get; set; } = string.Empty;
-    public required string minimum_membership_access { get; set; } = string.Empty;
-    public ICollection<TrainerModel> trainer { get; } = new List<TrainerModel>();
-    public ICollection<MemberModel> members { get; } = new List<MemberModel>();
+    [JsonPropertyName("Name")] public required string Name { get; set; } = string.Empty;
+    [JsonPropertyName("Date")] public required string Date { get; set; } = string.Empty;
+    [JsonPropertyName("Time")] public required string Time { get; set; } = string.Empty;
+    [JsonPropertyName("Minimum_Membership_Access")] public required string MinimumMembershipAccess { get; set; } = string.Empty;
+    [JsonPropertyName("Trainer")] public ICollection<TrainerModel> Trainer { get; } = new List<TrainerModel>();
+    [JsonPropertyName("Members")] public ICollection<MemberModel> Members { get; } = new List<MemberModel>();
 }
