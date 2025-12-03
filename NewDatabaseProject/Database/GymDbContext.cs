@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using NewDatabaseProject.Models;
 
-namespace NewDatabaseProject.Models;
+namespace NewDatabaseProject.Database;
 
 public class GymDbContext : DbContext
 {

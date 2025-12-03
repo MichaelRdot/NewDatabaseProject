@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
 using NewDatabaseProject.Dtos;
 using NewDatabaseProject.Models;
+using NewDatabaseProject.Database;
 
 string userInput;
 await using var context = new GymDbContext();
