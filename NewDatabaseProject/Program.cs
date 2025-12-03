@@ -7,19 +7,19 @@ await using var context = new GymDbContext();
 
 var helpText = "Accepted commands:\n" +
                "/help - It does this thing, obviously.\n" +
-               "/exit and /quit - Both of these do the same thing, which\n" +
+               "/exit and /quit - Both of these do the same thing, which " +
                "is exiting the program.\n" +
-               "/query - Allows you to query the database." +
+               "/query - Allows you to query the database.\n" +
                "/addUser - Starts the process of adding yourself as a user.\n" +
                "/deleteUser - Deletes yourself from our database.\n" +
-               "/changeMembership - Allows you to upgrade or downgrade your\n" +
-               "membership." +
-               "/apply - Starts the process of onboarding you to become\n" +
-               "a trainer." +
+               "/changeMembership - Allows you to upgrade or downgrade your " +
+               "membership.\n" +
+               "/apply - Starts the process of onboarding you to become " +
+               "a trainer.\n" +
                "/addClass - Allows you to add a class to your schedule.\n" +
                "/deleteClass - Allows your to delete a class on your schedule.\n";
 
-Console.WriteLine("Hello, and welcome to the GymFit Database!\n" +
+Console.WriteLine("\n\nHello, and welcome to the GymFit Database!\n" +
                   "Here you can query the database, add yourself as a user,\n" +
                   "delete yourself if your are currently a user, modify your\n" +
                   "Gym schedule, modify your membership, apply to become a\n" +

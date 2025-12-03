@@ -7,6 +7,7 @@ public class GymDbContext : DbContext
     public GymDbContext()
     {
         DbPath = "Database/Gym.db";
+        Database.EnsureCreated();
     }
 
     public DbSet<MemberModel> Members { get; set; }
