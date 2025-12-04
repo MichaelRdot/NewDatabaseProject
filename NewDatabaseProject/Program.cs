@@ -1,4 +1,6 @@
-﻿using System.Text.Json;
+﻿using System.Text;
+using System.Text.Json;
+using Microsoft.EntityFrameworkCore;
 using NewDatabaseProject.Dtos;
 using NewDatabaseProject.Models;
 using NewDatabaseProject.Database;
@@ -81,6 +83,7 @@ void Query()
         Console.WriteLine("2 - Trainers");
         Console.WriteLine("3 - Classes");
         Console.WriteLine("4 - Membership types");
+        Console.WriteLine("5 - Check Class Roster");
         Console.WriteLine("Press Enter without typing anything to go back.");
         var choice = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(choice))
@@ -125,7 +128,6 @@ void Query()
                 }
 
                 break;
-
             case "3":
             case "classes":
                 Console.Write("Enter class name (leave empty to list all): ");
@@ -143,7 +145,6 @@ void Query()
                 }
 
                 break;
-
             case "4":
             case "membership":
             case "membership types":
@@ -153,7 +154,6 @@ void Query()
                 }
 
                 break;
-
             default:
                 Console.WriteLine("Unknown option.");
                 break;
@@ -199,11 +199,16 @@ void AddUser()
     Console.WriteLine("Available membership types:");
     foreach (var mt in membershipTypes)
     {
-        Console.WriteLine($"- {mt.AccessLevel} ({mt.Price:C})");
+        if (mt.AccessLevel is not "Staff") Console.WriteLine($"- {mt.AccessLevel} ({mt.Price:C})");
     }
 
     Console.Write("Choose membership type: ");
-    var membership = Console.ReadLine()?.Trim();
+    string membership = Console.ReadLine()?.Trim() ?? string.Empty;
+    if (membership == "Staff")
+    {
+        Console.WriteLine("Invalid membership type.");
+        return;
+    }
     var selectedType = membershipTypes
         .FirstOrDefault(t => string.Equals(t.AccessLevel, membership, StringComparison.OrdinalIgnoreCase));
 

@@ -8,35 +8,35 @@
       "Minimum_Membership_Access": "Basic",
       "Trainer": "T001",
       "Members": [
-        "M001",
-        "M004",
-        "M006",
-        "M009",
-        "M011",
-        "M014",
-        "M016",
-        "M019",
-        "M021",
-        "M024"
+        "olivia.green@gymfit.com",
+        "noah.anderson@gymfit.com",
+        "william.moore@gymfit.com",
+        "isabella.young@gymfit.com",
+        "mia.wright@gymfit.com",
+        "henry.adams@gymfit.com",
+        "michael.rivera@gymfit.com",
+        "evelyn.gray@gymfit.com",
+        "abigail.foster@gymfit.com",
+        "matthew.cox@gymfit.com"
       ]
     },
     {
       "Name": "Spin Class",
       "Date": "2025-01-10",
       "Time": "10:30",
-      "Minimum_Membership_Access": "Basic",
+      "Minimum_Membership_Access": "Premium",
       "Trainer": "T002",
       "Members": [
-        "M002",
-        "M005",
-        "M007",
-        "M010",
-        "M012",
-        "M015",
-        "M017",
-        "M020",
-        "M022",
-        "M025"
+        "liam.carter@gymfit.com",
+        "ava.miller@gymfit.com",
+        "sophia.clark@gymfit.com",
+        "benjamin.king@gymfit.com",
+        "lucas.scott@gymfit.com",
+        "amelia.perez@gymfit.com",
+        "harper.stewart@gymfit.com",
+        "daniel.hughes@gymfit.com",
+        "jacob.ross@gymfit.com",
+        "elizabeth.howard@gymfit.com"
       ]
     },
     {
@@ -46,16 +46,16 @@
       "Minimum_Membership_Access": "Basic",
       "Trainer": "T003",
       "Members": [
-        "M001",
-        "M003",
-        "M006",
-        "M008",
-        "M011",
-        "M013",
-        "M016",
-        "M018",
-        "M021",
-        "M023"
+        "olivia.green@gymfit.com",
+        "emma.thompson@gymfit.com",
+        "william.moore@gymfit.com",
+        "james.hall@gymfit.com",
+        "mia.wright@gymfit.com",
+        "charlotte.baker@gymfit.com",
+        "michael.rivera@gymfit.com",
+        "ethan.torres@gymfit.com",
+        "abigail.foster@gymfit.com",
+        "emily.ward@gymfit.com"
       ]
     },
     {
@@ -65,35 +65,35 @@
       "Minimum_Membership_Access": "Premium",
       "Trainer": "T004",
       "Members": [
-        "M002",
-        "M004",
-        "M007",
-        "M009",
-        "M012",
-        "M014",
-        "M017",
-        "M019",
-        "M022",
-        "M024"
+        "liam.carter@gymfit.com",
+        "noah.anderson@gymfit.com",
+        "sophia.clark@gymfit.com",
+        "isabella.young@gymfit.com",
+        "lucas.scott@gymfit.com",
+        "henry.adams@gymfit.com",
+        "harper.stewart@gymfit.com",
+        "evelyn.gray@gymfit.com",
+        "jacob.ross@gymfit.com",
+        "matthew.cox@gymfit.com"
       ]
     },
     {
       "Name": "Zumba",
       "Date": "2025-01-12",
       "Time": "17:30",
-      "Minimum_Membership_Access": "Premium",
+      "Minimum_Membership_Access": "Basic",
       "Trainer": "T005",
       "Members": [
-        "M003",
-        "M005",
-        "M008",
-        "M010",
-        "M013",
-        "M015",
-        "M018",
-        "M020",
-        "M023",
-        "M025"
+        "emma.thompson@gymfit.com",
+        "ava.miller@gymfit.com",
+        "james.hall@gymfit.com",
+        "benjamin.king@gymfit.com",
+        "charlotte.baker@gymfit.com",
+        "amelia.perez@gymfit.com",
+        "ethan.torres@gymfit.com",
+        "daniel.hughes@gymfit.com",
+        "emily.ward@gymfit.com",
+        "elizabeth.howard@gymfit.com"
       ]
     }
   ]
